@@ -1,0 +1,8 @@
+version: "3.3"
+services:
+  frontend:
+    image: '666.dkr.ecr.us-east-1.amazonaws.com/example:latest'
+    volumes:
+      - ./frontend:/app
+    ports:
+      - "8000:80"
